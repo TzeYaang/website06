@@ -16,4 +16,4 @@ jobs:
       - name: Upload image to Docker Hub
         run: docker push tzeyaang/websitetest
       - name: Deploy Website07
-        run: docker run -d --name=website07 -p 8080:80 tzeyaang/websitetest
+        run: docker run -d --name=websitetest -p 8080:80 tzeyaang/websitetest
